@@ -45,9 +45,9 @@ class RNN(nn.Module):
         output = self.W(ht[-1])
 
         # [to fill] obtain probability dist.
-        predicted_vector = self.softmax(output)
+        predictedVector = self.softmax(output)
 
-        return predicted_vector
+        return predictedVector
 
 
 def load_data(train_data, val_data):
